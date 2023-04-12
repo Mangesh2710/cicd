@@ -10,7 +10,7 @@ phases:
   build:
     coommand:
         - echo building file
-        - cp index.html
+        - cp index.html/var/www/html/
         
   post_build:
     commands:
